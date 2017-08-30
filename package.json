@@ -1,0 +1,29 @@
+{
+  "name": "auction",
+  "version": "1.0.0",
+  "description": "SMS based silent auction",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/c316/auction.git"
+  },
+  "keywords": [
+    "sms",
+    "auction",
+    "twilio"
+  ],
+  "author": "Joshua Bechard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/c316/auction/issues"
+  },
+  "homepage": "https://github.com/c316/auction#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "express-session": "^1.15.5",
+    "twilio": "^3.6.4"
+  }
+}

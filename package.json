@@ -4,7 +4,7 @@
   "description": "SMS based silent auction",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --compilers js:babel-core/register"
   },
   "repository": {
     "type": "git",
@@ -25,5 +25,13 @@
     "express": "^4.15.4",
     "express-session": "^1.15.5",
     "twilio": "^3.6.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "mocha": "^3.5.0",
+    "nock": "^9.0.14",
+    "request": "^2.81.0",
+    "supertest": "^3.0.0"
   }
 }
